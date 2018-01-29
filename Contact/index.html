@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+     <header>
+        <img class="img" src="logo1.jpeg">
+    </header>
+    <div>
+        <nav id="nav-1">
+          <a class="link-1" href="../index.html">Home</a>
+          <a class="link-1" href="#">About</a>
+          <a class="link-1 link-2" href="Contact/index.html">Contact</a>
+          <a class="link-1" href="#">Shop</a>
+        </nav> 
+    </div>
+<section id="kontakt" class="pad-top-100 pad-bot-30">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8">
+									<form name="sentMessage" id="contactForm" novalidate>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Imię *" id="name" required data-validation-required-message="Proszę podać imię.">
+													<p class="help-block text-danger"></p>
+												</div>
+												<div class="form-group">
+													<input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Proszę podać adres e-mail.">
+													<p class="help-block text-danger"></p>
+												</div>
+												<div class="form-group">
+													<input type="tel" class="form-control" placeholder="Telefon *" id="phone" required data-validation-required-message="Proszę podać numer telefonu.">
+													<p class="help-block text-danger"></p>
+												</div>
+											</div>
+											<div class="col-md-6 ">
+												<div class="form-group">
+													<textarea class="form-control" placeholder="Wiadomość *" id="message" required data-validation-required-message="Prszę wpisać wiadomość."></textarea>
+													<p class="help-block text-danger"></p>
+												</div>
+												<div id="success"></div>
+												<button type="submit" class="contact">Wyślij</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-4">
+									<h3>TU NAS <span>ZNAJDZIESZ</span></h3>
+									<address>
+										ul. Bydgoszcz<br />
+										85-000 Bydgoszcz
+									</address>
+									<div class="contact-number">
+										<p> <span class="fa fa-phone"></span> +48 000 000 000 </p>
+									</div>
+									<div class="contact-mobile">
+										<p> <span class="fa fa-mobile"></span> +48 111 111 111 </p>
+									</div>
+									<div class="contact-email">
+										<p><span class="fa fa-envelope-o"></span> ####@gmail.com.pl</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script type="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        
+    var navBar = $("#nav-1");
+var hdrHeight = $(".img").height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdrHeight + 388) {
+    navBar.addClass("nav-2");
+  } else {
+    navBar.removeClass("nav-2");
+  }
+});
+    
+</body>
+</html>

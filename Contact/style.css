@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+}
+
+nav {
+  margin-top: auto;
+  padding: 24px;
+  text-align: center;
+  font-family: 'Dancing Script', Georgia, Times, serif;
+  box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+    
+}
+img{
+    width: 100%;
+}
+#nav-1 {
+  background: linear-gradient(135deg, gray, #42434F 23%, #42434F);
+    margin-bottom: 40px;
+}
+.link-1 {
+  transition: 0.3s ease;
+  background: #42434F;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+  border-right: 4px solid #42434F;
+  border-bottom: 4px solid #42434F;
+  padding: 20px 0;
+  margin: 0 70px;
+}
+.link-1:hover {
+  border-bottom: 3px solid #ffffff;
+  padding: 6px 0;
+text-decoration: none;
+    color: white;
+}
+.link-2{
+    border-top: 3px solid #ffffff
+}
+
+
+.nav-2{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: -340px;
+    margin-bottom: 40px;   
+}
+
+#kontakt {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group input,
+ .form-group textarea {
+    padding: 9px;
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    border-radius: 2px;
+    box-shadow: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.form-group input.form-control {
+    height: 60px;
+}
+
+.form-group textarea.form-control {
+    height: 150px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #9b9b9b;
+}
+
+.text-danger {
+    color: #e74c3c;
+}
+/************ CONTACT ADDRESS ************/
+
+#kontakt address {
+    color: #5d5d5d;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#kontakt h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#kontakt h3 span {
+    color: linear-gradient(135deg, gray, #42434F 23%, #42434F);
+}
+
+#kontakt .contact-number p span,
+#kontakt .contact-mobile p span,
+#kontakt .contact-fax p span,
+#kontakt .contact-email p span {
+    font-size: 18px;
+    color: linear-gradient(135deg, gray, #42434F 23%, #42434F);
+    padding-right: 10px;
+}
+
+#kontakt .contact-mobile p span {
+    font-size: 22px;
+    color: linear-gradient(135deg, gray, #42434F 23%, #42434F);
+    padding-right: 14px;
+}
+
+#kontakt .contact-number p,
+#kontakt .contact-mobile p,
+#kontakt .contact-fax p,
+#kontakt .contact-email p {
+    font-family: 'lato', sans-serif;
+    color: #202830;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+button.contact, button.contact:hover,
+#kontakt .footer-social ul.footer-social-list li a i,
+#kontakt .footer-social ul.footer-social-list li a i:hover {
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+    -ms-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+}
+
+button.contact {
+    width: 100%;
+    background-color:  #42434F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+    box-shadow: none;
+    box-shadow: 0;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+button.contact:hover {
+    background-color: linear-gradient(135deg, gray, #42434F 23%, #42434F);
+    border: 0;
+    color: #ffffff;
+}
